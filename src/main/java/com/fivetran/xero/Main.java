@@ -26,8 +26,8 @@ public class Main {
     // REPLACE THESE STRINGS WITH YOUR OWN PARAMETERS!!!
     public static final String CONSUMER_KEY = "[consumer key from xero developer home]";
     public static final String CONSUMER_SECRET = "[consumer secret from xero developer home]";
-    public static final String OAUTH_TOKEN = "[oauth token from xero authentication process]";
-    public static final String OAUTH_TOKEN_SECRET = "[oauth token secret from xero authentication process]";
+    public static final String OAUTH_TOKEN = "[oauth token from https://api.xero.com/oauth/AccessToken]";
+    public static final String OAUTH_TOKEN_SECRET = "[oauth token secret from https://api.xero.com/oauth/AccessToken]";
 
     /**
      * Root of Xero API
