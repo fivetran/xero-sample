@@ -51,6 +51,9 @@ class OAuth1Signature implements ClientRequestFilter {
 
         params.setSignature(signature);
 
+        for (NameValuePair q : queryParams)
+            params.remove(q.getName());
+
         params.writeRequest(new OAuth1Request() {
             @Override
             public String getRequestMethod() {
